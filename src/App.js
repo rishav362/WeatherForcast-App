@@ -6,7 +6,7 @@ import TimeAndLocation from "./components/TimeAndLocation.jsx";
 import TopButtons from "./components/TopButtons.jsx";
 import getFormattedWeatherData from "./services/weatherServices.js";
 import { ToastContainer, toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () =>{
   const [query,setQuery] =useState({q:"tokyo" })
